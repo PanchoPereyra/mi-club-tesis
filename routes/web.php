@@ -2,10 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return 'HOME FUNCIONA';
+Route::view('/', 'index')->name('home');
+
+Route::middleware(['auth', 'verified'])->group(function () {
+    Route::view('dashboard', 'dashboard')->name('dashboard');
 });
 
-Route::get('/prueba-laravel', function () {
-    return 'LARAVEL FUNCIONA';
-});
+require __DIR__.'/settings.php';
