@@ -15,9 +15,10 @@
 
     {{-- 2. Hero con carrusel --}}
     <x-hero />
+
     {{-- <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl text-center mt-10">
         Actividades
-    </h2> --}} --}}
+    </h2> --}}
 
     {{-- 3. Actividades --}}
     <x-actividades />
