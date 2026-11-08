@@ -2,7 +2,7 @@
 $actividadesData = [
     [
         'titulo' => 'Rugby',
-        'imagen' => asset('img-varias/prueba1.jpeg'),
+        'imagen' => asset('img-varias/pelota.jpeg'),
         'link' => '/actividades/rugby',
     ],
     [

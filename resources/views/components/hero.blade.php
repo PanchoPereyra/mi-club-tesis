@@ -11,12 +11,12 @@ $slides = [
         'subtitulo' => 'Interfaces intuitivas que enamoran a tus usuarios.',
     ],
     [
-        'imagen' => asset('img-varias/prueba1.jpeg'),
+        'imagen' => asset('img-varias/pelota.jpeg'),
         'titulo' => 'Rendimiento Ultra Rápido',
         'subtitulo' => 'Tecnología de vanguardia para una web sin esperas.',
     ],
     [
-        'imagen' => asset('img-varias/prueba2.jpeg'),
+        'imagen' => asset('img-varias/pelota2.jpeg'),
         'titulo' => 'Pasión y Compromiso',
         'subtitulo' => 'El club crece junto a cada uno de sus socios.',
     ],
